@@ -1,0 +1,66 @@
+/* src/HomePage.css */
+.home {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(255, 254, 254);
+  max-width: 1920px; /* Limit the maximum width to 1920px */
+  margin: 0 auto; /* Center-align the content horizontally */
+}
+
+.get-started-button {
+  background-color: #61dafb;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Update the styles for the hero section */
+.hero {
+  flex: 1;
+  padding: 50px;
+  margin: 0 auto;
+  background: linear-gradient(rgba(122, 89, 223, 0.349),rgba(122, 208, 107, 0.284)), url("https://wallpapercave.com/dwp2x/wp10455999.jpg")center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  height: 55vh;
+  width: auto;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  width: 120px;
+  background: linear-gradient(rgb(21, 87, 255),rgba(5, 176, 255, 0.747)), url("")center;
+  margin: 0 auto;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Update the styles for other sections to match the desktop size */
+.features,
+.foot,
+.testimonials,
+.templates {
+  height: 55vh;
+  width: 97.5vw;
+}
+
+.templates-section {
+  margin-bottom: 300px;
+}
